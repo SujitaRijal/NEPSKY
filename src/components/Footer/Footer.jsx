@@ -22,7 +22,7 @@ const Footer = () => {
         <div className="flex-1 mb-8 md:mb-0">
           <h3 className="mb-4 text-lg font-bold text-white">Quick Links</h3>
           <ul className="flex flex-col gap-2 text-white">
-            <Link to="/Home" className="text-gray-400 hover:text-white">
+            <Link to="/" className="text-gray-400 hover:text-white">
               Home
             </Link>
             <Link to="/AboutUs" className="text-gray-400 hover:text-white">
@@ -31,7 +31,7 @@ const Footer = () => {
             <Link to="/Services" className="text-gray-400 hover:text-white">
               Services
             </Link>
-            <Link to="/Trainings" className="text-gray-400 hover:text-white">
+            <Link to="/Training" className="text-gray-400 hover:text-white">
               Trainings
             </Link>
             <Link to="/Contact" className="text-gray-400 hover:text-white">

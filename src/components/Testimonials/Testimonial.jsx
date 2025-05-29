@@ -39,7 +39,7 @@ const Testimonial = () => {
     <div className="w-full flex flex-col items-center justify-center px-4 py-14 md:px-12 lg:px-20 text-[#1c1c4e] font-poppins">
       <h1 className="mb-2 text-2xl font-bold sm:text-4xl">
         What Our{" "}
-        <span className="font-light underline underline-offset-4 decoration-1 under">
+        <span className="font-semibold underline underline-offset-4 decoration-2 under">
           Client Says??
         </span>
       </h1>
@@ -54,7 +54,7 @@ const Testimonial = () => {
             whileHover={{ scale: 1.05 }}
             className={`cursor-pointer p-4 rounded-lg border ${
               activeIndex === index ? "bg-indigo-100" : "bg-white"
-            } border-gray-300 shadow-md text-center w-60 h-60 transition duration-300`}
+            } border-gray-300 shadow-md text-center w-60 h-50 transition duration-300`}
           >
             <img
               src={person.image}

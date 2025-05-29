@@ -1,6 +1,9 @@
+import { Contact } from "lucide-react";
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Landingpage = () => {
+  const navigate = useNavigate();
   return (
     <div
       className="relative flex items-center justify-center min-h-screen bg-center bg-cover"
@@ -26,7 +29,10 @@ const Landingpage = () => {
           </p>
 
           <div>
-            <button className="px-6 py-3 mt-2 font-semibold text-white transition duration-300 ease-in-out bg-orange-500 rounded-lg shadow-lg hover:bg-orange-600 ">
+            <button
+              onClick={() => navigate("/Contact")}
+              className="px-6 py-3 mt-2 font-semibold text-white transition duration-300 ease-in-out bg-orange-500 rounded-lg shadow-lg hover:bg-orange-600 "
+            >
               Get Started
             </button>
           </div>
