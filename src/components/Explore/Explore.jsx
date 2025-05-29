@@ -18,7 +18,7 @@ const Explore = () => {
       </h1>
       <p className="max-w-2xl mt-2 mb-16 text-center text-gray-700">
         Our clients are at the heart of everything we do. From startups to
-        global companies, we’re proud to support their journey and growth.
+        global companies.
       </p>
 
       <div className="w-full overflow-hidden mb-8">

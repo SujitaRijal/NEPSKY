@@ -111,7 +111,7 @@ const Work = () => {
         className="mb-2 text-2xl font-bold text-center sm:text-4xl"
       >
         How{" "}
-        <span className="font-semibold underline underline-offset-4 decoration-2">
+        <span className="font-semibold underline underline-offset-4 decoration-2 under">
           Nep<span className="text-orange-500">Sky</span> Works
         </span>
       </motion.h1>

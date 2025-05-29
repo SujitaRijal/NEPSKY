@@ -15,11 +15,18 @@ import {
   ClockAlert,
   Clock,
 } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const Training = () => {
+  const navigate = useNavigate();
   const TrainingData = [
     {
-      icon: <Code2 className="w-8 h-8 text-orange-500" />,
+      icon: (
+        <Code2
+          className="w-8 h-8 text-orange-500"
+          onClick={() => navigate("/TrainingDetails/Frontend")}
+        />
+      ),
       title: "Basic Frontend Development",
       description:
         "Learn HTML, CSS, Responsive Web Design & Bootstrap, JavaScript.",

@@ -12,6 +12,7 @@ import MainLayout from "./components/layout/MainLayout";
 import Home from "./components/Home/Home";
 import { Route } from "react-router-dom";
 import { Routes } from "react-router-dom";
+import TrainingDetails from "./components/Training_Details/TrainingDetails";
 
 const App = () => {
   return (
@@ -22,6 +23,11 @@ const App = () => {
           <Route path="/AboutUs" element={<About />} />
           <Route path="/Services" element={<Services />} />
           <Route path="/Training" element={<Trainings />} />
+          <Route
+            path="/TrainingDetails/Frontend"
+            element={<TrainingDetails />}
+          />
+
           <Route path="/Contact" element={<Contact />} />
         </Route>
       </Routes>

@@ -26,18 +26,18 @@ const Contact = () => {
     }
   };
   return (
-    <div className="w-full bg-gray-100">
+    <div className="w-full bg-gray-100 text-[#1c1c4e] font-poppins">
       <motion.div
         initial={{ opacity: 0, x: -200 }}
         transition={{ duration: 1 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
-        className="w-full p-6 py-20 overflow-hidden text-center lg:px-20"
+        className="w-full p-6 py-16 overflow-hidden text-center lg:px-20"
       >
-        <h1 className="mb-2 text-2xl font-bold text-center sm:text-4xl ">
+        <h1 className="mb-2 text-2xl font-bold text-center sm:text-4xl">
           Contact {""}
           <span className="font-semibold underline underline-offset-4 decoration-2 under">
-            NepSky
+            Nep<span className="text-orange-500">Sky</span>
           </span>
         </h1>
         <p className="w-full mt-2 mb-10 text-center text-gray-700">

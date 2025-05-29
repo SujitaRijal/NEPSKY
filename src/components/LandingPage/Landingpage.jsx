@@ -14,7 +14,7 @@ const Landingpage = () => {
     >
       <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" />
 
-      <div className="relative z-10 flex flex-col items-center justify-between w-full px-4 pt-12 md:flex-row lg:px-16 sm:text-left lg:pt-8">
+      <div className="relative z-10 flex flex-col items-center justify-between w-full px-4 pt-24 md:flex-row lg:px-16 sm:text-left lg:pt-8 ">
         <div className="w-full text-left md:w-1/2">
           <h1 className="mb-4 text-3xl font-bold text-orange-500 sm:text-3xl md:text-4xl lg:text-5xl dark:text-white font-poppins">
             Connecting The Dots To Success...
